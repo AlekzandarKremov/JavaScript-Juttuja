@@ -10,4 +10,4 @@ var var2 = 120.5;
 
 
 
-alert()
+alert(name + testi + age +var1)
