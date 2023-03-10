@@ -1,6 +1,8 @@
-var jotain = "How Is It Going?";
-var testi = document.getElementById("hoo1");
-var teksti = "Tämä on testi";
 
-var lause = "Moi miten menee"  + testi
 
+
+var hello = "hello";
+var world = "world";
+var cool = document.getElementById("cool");
+var sentence = hello + " Cool " + world;
+cool.innerHTML = "This is my very cool website";
