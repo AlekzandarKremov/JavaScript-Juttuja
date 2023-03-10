@@ -1,0 +1,1 @@
+var testi = document.getElementById("hoo1") 
