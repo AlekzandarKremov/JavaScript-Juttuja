@@ -1,6 +1,7 @@
-var name = prompt("What Is Your Name?")
-var h3Node = document.getElementById("customInput")
-h3Node.innerText = name
+var name = prompt("What Is Your Name?", "Alek");
+name = name.toLowerCase();
+var h3Node = document.getElementById("customInput");
+h3Node.innerText = name;
 
 
 
