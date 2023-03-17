@@ -7,7 +7,7 @@ body {
     width: 100px;
     height: 70px;
     padding: 15px;
-    margin: 20px;
+    margin: 15px;
     background-color: aqua;
     box-shadow: 7px 7px;
     float: left;
@@ -17,7 +17,7 @@ body {
     width: 100px;
     height: 70px;
     padding: 15px;
-    margin: 20px;
+    margin: 15px;
     background-color: gold;
     box-shadow: 7px 7px;
     float: left;
@@ -27,7 +27,7 @@ body {
     width: 100px;
     height: 70px;
     padding: 15px;
-    margin: 20px;
+    margin: 15px;
     background-color: lawngreen;
     box-shadow: 7px 7px;
     float: left;
@@ -37,8 +37,13 @@ body {
     width: 100px;
     height: 70px;
     padding: 15px;
-    margin: 20px;
+    margin: 15px;
     background-color: violet;
     box-shadow: 7px 7px;
     float: left;
+}
+
+img {
+    float: left;
+    margin: 15px;
 }
