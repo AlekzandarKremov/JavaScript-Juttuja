@@ -1,0 +1,40 @@
+
+body {
+    background-color: cadetblue;
+}
+
+.box {
+    width: 100px;
+    height: 70px;
+    padding: 15px;
+    margin: 15px;
+    background-color: aqua;
+    box-shadow: 7px 7px;
+}
+
+.box2 {
+    width: 100px;
+    height: 70px;
+    padding: 15px;
+    margin: 20px;
+    background-color: gold;
+    box-shadow: 7px 7px;
+}
+
+.box3 {
+    width: 100px;
+    height: 70px;
+    padding: 15px;
+    margin: 25px;
+    background-color: lawngreen;
+    box-shadow: 7px 7px;
+}
+
+.box4 {
+    width: 100px;
+    height: 70px;
+    padding: 15px;
+    margin: 30px;
+    background-color: violet;
+    box-shadow: 7px 7px;
+}
