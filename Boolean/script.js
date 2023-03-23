@@ -19,6 +19,11 @@ if(isCat = false) {
 
 if(!isCat) { }
 
-if(isCat != true) {
-    
+if(isCat != true) { }
+
+if(!isCat) {
+
 }
+
+var isCat = 1;
+var isCat = 0;
