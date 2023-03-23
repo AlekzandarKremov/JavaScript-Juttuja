@@ -1,10 +1,10 @@
-/*
+
 var age = "30";
 age = Number(age);
 console.log(typeof(age))
-*/
 
-/*
+
+
 var age = prompt("Your age is?")
 age = Number(age)
 if(age) {
@@ -15,19 +15,19 @@ if(age) {
     }
 }
 console.log(typeof(age))
-*/
 
-/*
+
+
 var age = 30;
 age = String(age)
 console.log(age, typeof(age))
-*/
 
-/*
+
+
 var isCat = "true"
 isCat = Boolean(isCat)
 console.log(isCat, typeof(isCat))
-*/
+
 
 var course = "JS For Beginners";
 course = Array(course)
