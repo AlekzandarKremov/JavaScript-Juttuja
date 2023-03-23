@@ -1,10 +1,3 @@
-var isCat = false;
-
-if(isCat) {
-    console.log("ZEPHYR IS A CAT")
-} else {
-    console.log("IS NOT A CAT")
-}
 
 var name = prompt("Enter Name")
 
@@ -18,4 +11,14 @@ if(isCat) {
     alert("You're a cat!")
 } else {
     alert("You're NOT a cat")
+}
+
+if(isCat = false) {
+    alet("Is not a cat")
+}
+
+if(!isCat) { }
+
+if(isCat != true) {
+    
 }
