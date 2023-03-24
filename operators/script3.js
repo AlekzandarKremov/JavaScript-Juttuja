@@ -35,8 +35,17 @@ if(name.lenght <= 10) {
     )
 }
 */
+/*
+var age = 30;
+if(age === 30) {
+    console.log("You Are Thirty")
+} else {
+    console.warn("Wrong Data Type")
+}
+*/
 
 var age = "30";
+age = Number(age)
 if(age === 30) {
     console.log("You Are Thirty")
 } else {
