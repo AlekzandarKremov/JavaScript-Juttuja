@@ -1,3 +1,7 @@
+var defaultName = greeting()
+var ElGato = greeting("El Gato", 204)
+var Kronkodrilo = greeting("Kronkodriilo", 987)
+
 function greeting(name="Alekki", age=17) {
     console.log("Moi " + name + "!")
     console.log("Olet " + age + " Vuotta Vanha!")
@@ -5,6 +9,3 @@ function greeting(name="Alekki", age=17) {
     return name;
 }
 
-var defaultName = greeting()
-var ElGato = greeting("El Gato", 204)
-var Kronkodrilo = greeting("Kronkodriilo", 987)
