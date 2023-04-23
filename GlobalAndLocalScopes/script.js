@@ -10,7 +10,7 @@ var numero1 = 7;
 function funktio() {
     // Lokaali muuttuja
     var numero2 = 5;
-    console.log(numero1); // Tulostaa 10
+    console.log(numero1); // Tulostaa 7
     console.log(numero2); // Tulostaa 5
 }
 
