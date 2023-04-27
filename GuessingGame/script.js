@@ -1,5 +1,5 @@
 
-var numero = 42
+var numero = 77
 
 while(true) {
     var number = Number(prompt("What Is The Number"))
