@@ -14,12 +14,6 @@ class Person {
     }
 }
 
-const alek = new Person("Alek", "Human", "Broccoli")
-const mirri = new Person("Mirri", "Cat", "Dog Food")
 const kokotriilo = new Person("Kokotriilo", "Crocodile", "Vegetables")
-alek.makeSound()
-mirri.makeSound()
 kokotriilo.makeSound()
-alek.Information()
-mirri.Information()
 kokotriilo.Information()
