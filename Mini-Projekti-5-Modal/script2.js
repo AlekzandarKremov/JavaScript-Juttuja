@@ -1,13 +1,7 @@
 
 class Modal {
-    constructor(title, text) {
-        this.modal = document.querySelector(".js-modal")
-       if(title !== undefined) {
-        this.modal.querySelector(".js-modal-title").innerText = title
-        }
-        if(text !== undefined) {
-            this.modal.querySelector(".js-modal-text").innerText = text
-        }
+    constructor() {
+       this.modal = document.querySelector(".js-modal")
     }
 
     open() {
@@ -16,6 +10,15 @@ class Modal {
     
     close() {
         this.modal.style.display = "none"
+    }
+
+    changeContent(title, text) {
+        if(title !== undefined) {
+            this.modal.querySelector(".js-modal-title").innerText = title
+         }
+         if(text !== undefined) {
+             this.modal.querySelector(".js-modal-text").innerText = text
+         }
     }
 }
 
@@ -29,4 +32,4 @@ openBtn.addEventListener("click", function(event) {
 
 closeBtn.addEventListener("click", function(event) {
     modal.close()
-});
+})
