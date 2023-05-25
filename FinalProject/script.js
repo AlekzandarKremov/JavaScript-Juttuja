@@ -8,4 +8,4 @@ if(letter !== " ") {
 classes = "letter js-letter"
 }
     html = html + `<span class=`$(classes)`>$(letter)</span>
-})
+})0
