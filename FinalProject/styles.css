@@ -11,6 +11,6 @@ body {
 }
 
 .letter.active {
-  transform: scale(1.5) rotate(15deg);
+  transform: scale(1.5) rotate(30deg);
   color:aqua ;
 }
