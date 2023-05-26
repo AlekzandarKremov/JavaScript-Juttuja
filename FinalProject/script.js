@@ -20,6 +20,3 @@ jsLetters.forEach(node => {
         this.classList.remove("active")
     })
 })
-
-
-
