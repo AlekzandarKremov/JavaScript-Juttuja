@@ -1,16 +1,16 @@
 body {
-  background-color: blue;
+  background-color: fff;
   text-align: center;
 }
 
 .letter {
   font-size: 90px;
-  font-family: "pacifico", cursive;
+  font-family: "comic-sans", cursive;
   display: inline-block;
   color: blueviolet;
 }
 
 .letter.active {
-  transform: scale(1.5) rotate(20deg);
-  color: lime;
+  transform: scale(1.5) rotate(15deg);
+  color:aqua ;
 }
