@@ -4,6 +4,7 @@ let i = 0;
 let square1, square2;
 let clickCount = 0;
 let score = 0;
+let pluh = new Audio("pluh.wav")
 
 let bgMusic = new Audio("Hello.wav")
 bgMusic.play();
@@ -96,6 +97,7 @@ function noMatch() {
 }
 function isMatch() {
     score++
+    pluh.play();
     document.querySelector("#score").innerText = score;
     document.querySelector("#score").style.visibility = "visible";
     square1.classList.add("pop")
