@@ -45,11 +45,11 @@ li {
 }
 
 .shake {
-    animation: shake 0,1s;
+    animation: shake 1s;
 }
 
 .pop {
-    animation: pop 0.5s;
+    animation: pop 1s;
 }
 
 @keyframes shake {
@@ -72,6 +72,6 @@ li {
 
 @keyframes pop {
     0% {transform: scale(1);}
-    50% {transform: scale(1.06);}
+    50% {transform: scale(1);}
     100% {transform: scale(1);}
 }
