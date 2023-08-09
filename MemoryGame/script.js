@@ -6,10 +6,7 @@ let clickCount = 0;
 let score = 0;
 let pluh = new Audio("pluh.wav")
 
-let bgMusic = new Audio("Hello.wav")
-bgMusic.play();
-bgMusic.loop = true;
-
+document.querySelector("embed").style.visibility = "hidden"
 document.querySelector("#score").style.visibility = "hidden";
 const playAgainBtn = document.querySelector('button')
 playAgainBtn.style.visibility = "hidden"
