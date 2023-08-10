@@ -114,6 +114,16 @@ function download() {
   link.click();
 }
 
+const resizeImage = () => {
+    const newWidth = 300;
+    const newHeight = 400;
+  
+    canvas.width = newWidth;
+    canvas.height = newHeight;
+  
+    ctx.drawImage(img, 0, 0, newWidth, newHeight);
+  };
+
 document.querySelectorAll("button")[0].addEventListener("click", greyscale);
 document.querySelectorAll("button")[1].addEventListener("click", sepia);
 document.querySelectorAll("button")[2].addEventListener("click", invert);
@@ -123,6 +133,7 @@ document.querySelectorAll("button")[5].addEventListener("click", gbr);
 document.querySelectorAll("button")[6].addEventListener("click", grb);
 document.querySelectorAll("button")[7].addEventListener("click", clearChanges);
 document.querySelectorAll("button")[8].addEventListener("click", download);
+document.querySelectorAll("button")[9].addEventListener("click", resizeImage);
 
 
 
